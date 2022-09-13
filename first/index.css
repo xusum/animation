@@ -1,0 +1,193 @@
+* {
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.container {
+    background-image: url('http://rhgvhn0kg.hb-bkt.clouddn.com/banner.png');
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.flex {
+    margin: 50px;
+    margin-top: 550px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+
+    /* .add{
+        margin-left: 30px;
+    
+    }
+    .eye-pictures1{
+        margin-left: -240px;
+        
+    }
+    .eye-pictures2{
+        margin-left: 50px;
+    }
+
+    .eye-pictures1 {
+        position: absolute;
+        height: 40px;
+        width: 47px;
+        top: 406px;
+        left: 97px;
+    }
+
+    .eye-pictures2 {
+        position: relative;
+        height: 94px;
+        width: 94px;
+        top: 238px;
+        left: 197px;
+    }
+
+    .eye-pictures3 {
+        position: relative;
+        height: 94px;
+        width: 94px;
+        top: 387px;
+        left: 295px;
+    }
+
+    .eye-pictures4 {
+        position: relative;
+        height: 47px;
+        width: 47px;
+        top: 317px;
+        left: 639px;
+    }
+
+    .eye-pictures5 {
+        position: relative;
+        height: 94px;
+        width: 94px;
+        top: 345px;
+        left: 788px;
+    }
+
+    .eye-pictures6 {
+        position: relative;
+        height: 94px;
+        width: 94px;
+        top: 54px;
+        left: 1087px;
+    }
+
+    .eye-pictures7 {
+        position: relative;
+        height: 47px;
+        width: 47px;
+        top: -209px;
+        left: 1086px;
+    }
+
+    .eye-pictures8 {
+        position: relative;
+        height: 47px;
+        width: 47px;
+        top: -303px;
+        left: 886px;
+    } */
+
+.eye-face-small {
+    position: absolute;
+    height: 47px;
+    width: 47px;
+    background-color: #3e526a;
+    /* opacity: 0.1; */
+
+}
+
+.eye-face {
+    position: absolute;
+    height: 95px;
+    width: 95px;
+    background-color: #3e526a;
+    /* opacity: 0.1; */
+}
+
+.eye-top-small {
+    transform: rotateX(-90deg);
+    transform-origin: top center;
+}
+
+.eye-top {
+    transform: rotateX(-90deg);
+    transform-origin: top center;
+}
+
+.eye-face,
+.eye-face-small {
+    background-color: #4D3F83;
+    /* background-color: black; */
+   
+
+}
+
+.eye-pictures1,
+.eye-pictures2,
+.eye-pictures3,
+.eye-pictures4,
+.eye-pictures5,
+.eye-pictures6,
+.eye-pictures7,
+.eye-pictures8 {
+    transform-style: preserve-3d;
+    /*动画*/
+    animation: spin;
+    animation-name: example;
+    animation-iteration-count: infinite;
+}
+
+.eye-pictures2,
+.eye-pictures4 {
+    animation-delay: 0s;
+    animation-duration: 20s;
+}
+
+.eye-pictures3,
+.eye-pictures6 {
+    animation-delay: 5s;
+    animation-duration: 20s;
+}
+
+.eye-pictures5,
+.eye-pictures8 {
+    animation-delay: 10s;
+    animation-duration: 20s;
+}
+
+.eye-pictures7,
+.eye-pictures1 {
+    animation-delay: 15s;
+    animation-duration: 20s;
+}
+
+@keyframes example {
+    0% {
+        transform: rotateX(0deg);
+    }
+
+    10% {
+        transform: rotateX(-90deg);
+    }
+
+    20% {
+        transform: rotateX(-90deg);
+    }
+
+    30% {
+        transform: rotateX(0deg);
+    }
+
+}
